@@ -8,13 +8,11 @@ Right now, there is only Linear Regression capability, so it will only work with
 
 #### How do I use it?
 
-Right now, you have to edit the arrays in the Main class (make sure that both x and y arrays have the same number of elements!) with your data. When you run the program, it will calculate the line that best fits your data and print it to the command line. Pretty cool!
-
-Soon, I will add the ability to submit your data from the command line.
+Right now, you enter the x values (separated by commas) the first time in the command line, and the y values the second time. When you run the program, it will calculate the line that best fits your data and print it to the command line. Pretty cool!
 
 #### Known bugs:
 
-Currently, the only known bug is that the program will raise an error if the number of elements in x and y are different. To fix: make sure that the x array and y array have the same number of elements.
+Currently, the only known bugs are that the program will raise an error if the number of elements in x and y are different, or if there are invalid characters entered in the data. To fix: make sure that the x array and y array have the same number of elements and that there are no invalid characters entered.
 
 #### Contact the developer:
 
