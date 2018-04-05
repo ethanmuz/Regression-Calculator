@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d36d510-37af-470d-b997-840d5f33066b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/Linear Regression/LinearRegression.class" afterPath="$PROJECT_DIR$/out/production/Linear Regression/LinearRegression.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Linear Regression/Main.class" afterPath="$PROJECT_DIR$/out/production/Linear Regression/Main.class" />
-      <change beforePath="$PROJECT_DIR$/src/LinearRegression.java" afterPath="$PROJECT_DIR$/src/LinearRegression.java" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,8 +18,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="36" lean-forward="false" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+            <state relative-caret-position="216">
+              <caret line="12" column="67" lean-forward="false" selection-start-line="12" selection-start-column="67" selection-end-line="12" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -302,12 +299,12 @@
       <updated>1522805717521</updated>
       <workItem from="1522805725889" duration="1752000" />
       <workItem from="1522889966433" duration="7315000" />
-      <workItem from="1522898409782" duration="2442000" />
+      <workItem from="1522898409782" duration="2788000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11509000" />
+    <option name="totallyTimeSpent" value="11855000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="16" y="29" width="1334" height="723" extended-state="0" />
@@ -408,8 +405,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="36" lean-forward="false" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        <state relative-caret-position="216">
+          <caret line="12" column="67" lean-forward="false" selection-start-line="12" selection-start-column="67" selection-end-line="12" selection-end-column="67" />
           <folding />
         </state>
       </provider>

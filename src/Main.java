@@ -10,8 +10,8 @@ public class Main {
         ArrayList<Double> y = new ArrayList<>();
         String entry = scan.nextLine();
         while (!entry.equals("done") && !entry.equals("Done")){
-            x.add(Double.parseDouble(entry.split(",")[0]));
-            y.add(Double.parseDouble(entry.split(",")[1]));
+            x.add(Double.parseDouble(entry.replace(" ","").split(",")[0]));
+            y.add(Double.parseDouble(entry.replace(" ","").split(",")[1]));
             entry = scan.nextLine();
         }
 

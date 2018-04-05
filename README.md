@@ -8,7 +8,7 @@ Right now, there is only Linear Regression capability, so it will only work with
 
 #### How do I use it?
 
-Right now, you enter the x values (separated by commas) the first time in the command line, and the y values the second time. When you run the program, it will calculate the line that best fits your data and print it to the command line. Pretty cool!
+For each point in your dataset, enter the point as "x,y" into the program. When you are done entering points, enter "done". When you run the program, it will calculate the line that best fits your data and print it to the command line. Pretty cool!
 
 #### Known bugs:
 
