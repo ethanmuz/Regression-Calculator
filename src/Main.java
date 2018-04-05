@@ -1,10 +1,22 @@
 import java.util.*;
 
+/**
+ * Main class to calculate linear regression. This contains the main method that creates an instance of the LinearRegression
+ * class, which does the statistical calculations for the regression line. This instance of the LinearRegression class can
+ * then be used to find the slope and y-intercept of the regression line, and the r^2 value which measures how well the
+ * regression line fits the data.
+ *
+ * @author Ethan Uzarowski (ethanmuz@gmail.com)
+ */
 public class Main {
+    /**
+     * Main method to calculate linear regression
+     */
     public static void main(String[]args){
         Scanner scan = new Scanner(System.in);  // Scanner to retrieve data from command line
 
-        System.out.println("Please enter each datapoint as \"x,y\". When you are done, please type \"done\"");
+        System.out.println("For each point in your data, enter it as \"x,y\", and then press enter. " +
+                "When you are done entering data, please type \"done\".");
 
         ArrayList<Double> x = new ArrayList<>();    // ArrayList to hold the x values of the plot
         ArrayList<Double> y = new ArrayList<>();    // ArrayList to hold the y values of the plot
@@ -15,6 +27,7 @@ public class Main {
             entry = scan.nextLine();    // Accept a new point
         }
 
+        // These are here in case you want to put your data points directly into these arrays
         // x = {};
         // y = {};
 
