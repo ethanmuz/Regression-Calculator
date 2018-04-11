@@ -34,5 +34,8 @@ public class Main {
         LinearRegression LR = new LinearRegression(x, y);   // Pass the x and y values to LinearRegression class
         System.out.println("y = " + LR.getSlope() + "x + " + LR.getyIntercept());   // Return the regression line y=mx+b
         System.out.println("r^2 = " + LR.getR2());  // Return the r^2 value
+
+        QuadraticRegression QR = new QuadraticRegression(x, y);   // Pass the x and y values to QuadraticRegression class
+        System.out.println("y = " + QR.getA() + "x^2 + " + QR.getB() + "x + " + QR.getC());   // Return the regression line y=ax^2+bx+c
     }
 }
