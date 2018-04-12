@@ -54,5 +54,9 @@ public class Main {
         PowerRegression PowR = new PowerRegression(x, y);   // Pass the x and y values to QuadraticRegression class
         System.out.println("y = " + PowR.getA() + "x^" + PowR.getB());   // Return the regression line y=ax^2+bx+c
         System.out.println("r^2 = " + PowR.getR2());  // Return the r^2 value
+
+        InverseRegression InvR = new InverseRegression(x, y);   // Pass the x and y values to QuadraticRegression class
+        System.out.println("y = " + InvR.getA() + "/x + " + InvR.getB());   // Return the regression line y=ax^2+bx+c
+        System.out.println("r^2 = " + InvR.getR2());  // Return the r^2 value
     }
 }
