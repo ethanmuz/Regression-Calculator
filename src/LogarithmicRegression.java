@@ -69,15 +69,15 @@ public class LogarithmicRegression {
         r = Sxy/(Math.sqrt(Sxx)*Math.sqrt(Syy));
     }
 
-    public double getA(){
+    public Double getA(){
         return a;
     }
 
-    public double getB(){
+    public Double getB(){
         return b;
     }
 
-    public double getR2(){
+    public Double getR2(){
         return r*r;
     }
 }

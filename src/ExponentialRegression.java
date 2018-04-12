@@ -77,7 +77,7 @@ public class ExponentialRegression {
         return b;
     }
 
-    public double getR2(){
+    public Double getR2(){
         return r*r;
     }
 }

@@ -77,7 +77,7 @@ public class InverseRegression {
         return b;
     }
 
-    public double getR2(){
+    public Double getR2(){
         return r*r;
     }
 }
