@@ -42,5 +42,13 @@ public class Main {
         LogarithmicRegression LogR = new LogarithmicRegression(x, y);   // Pass the x and y values to QuadraticRegression class
         System.out.println("y = " + LogR.getA() + "lnx + " + LogR.getB());   // Return the regression line y=ax^2+bx+c
         System.out.println("r^2 = " + LogR.getR2());  // Return the r^2 value
+
+        eExponentialRegression eExpR = new eExponentialRegression(x, y);   // Pass the x and y values to QuadraticRegression class
+        System.out.println("y = " + eExpR.getA() + "e^(" + eExpR.getB() + "x)");   // Return the regression line y=ax^2+bx+c
+        System.out.println("r^2 = " + eExpR.getR2());  // Return the r^2 value
+
+        ExponentialRegression ExpR = new ExponentialRegression(x, y);   // Pass the x and y values to QuadraticRegression class
+        System.out.println("y = " + ExpR.getA() + " * " + ExpR.getB() + "^x");   // Return the regression line y=ax^2+bx+c
+        System.out.println("r^2 = " + ExpR.getR2());  // Return the r^2 value
     }
 }
