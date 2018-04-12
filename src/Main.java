@@ -50,5 +50,9 @@ public class Main {
         ExponentialRegression ExpR = new ExponentialRegression(x, y);   // Pass the x and y values to QuadraticRegression class
         System.out.println("y = " + ExpR.getA() + " * " + ExpR.getB() + "^x");   // Return the regression line y=ax^2+bx+c
         System.out.println("r^2 = " + ExpR.getR2());  // Return the r^2 value
+
+        PowerRegression PowR = new PowerRegression(x, y);   // Pass the x and y values to QuadraticRegression class
+        System.out.println("y = " + PowR.getA() + "x^" + PowR.getB());   // Return the regression line y=ax^2+bx+c
+        System.out.println("r^2 = " + PowR.getR2());  // Return the r^2 value
     }
 }
