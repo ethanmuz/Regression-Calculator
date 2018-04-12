@@ -7,7 +7,7 @@ public class QuadraticRegression {
     private Double a;   // Calculated slope
     private Double b;  //Calculated y-intercept
     private Double c;
-    private Double r;   // r - residual analysis, goodness-of-fit index
+    private Double r2;   // r - residual analysis, goodness-of-fit index
 
     private Double xbar;    // Mean of x values
     private Double ybar;    // Mean of y values
@@ -23,6 +23,7 @@ public class QuadraticRegression {
         findXbar(); findYbar(); findX2bar(); findSxx();
         findSxy(); findSxx2(); findSx2y(); findSx2x2(); //findR();    // Calculate the variables needed to find slope and Y-intercept
         findA(); findB(); findC();
+        findR2();
     }
 
     /**
@@ -101,6 +102,16 @@ public class QuadraticRegression {
         c = ybar-(b*xbar)-(a*x2bar);
     }
 
+    public void findR2(){
+        double numerator = 0.0;
+        double denominator = 0.0;
+        for (int i =0; i < x.size(); i++) {
+            numerator += Math.pow(y.get(i) - (c + (b * x.get(i)) + (a * x.get(i) * x.get(i))), 2);
+            denominator+=Math.pow(y.get(i)-ybar,2);
+        }
+        r2 = 1 - (numerator/denominator);
+    }
+
     public Double getA(){
         return a;
     }
@@ -112,10 +123,11 @@ public class QuadraticRegression {
     public Double getC(){
         return c;
     }
+
     /**
      * @return r^2: the goodness-of-fit index for the given regression line
      */
     public Double getR2(){
-        return r*r;
+        return r2;
     }
 }
