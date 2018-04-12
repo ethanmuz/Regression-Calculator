@@ -38,5 +38,9 @@ public class Main {
         QuadraticRegression QR = new QuadraticRegression(x, y);   // Pass the x and y values to QuadraticRegression class
         System.out.println("y = " + QR.getA() + "x^2 + " + QR.getB() + "x + " + QR.getC());   // Return the regression line y=ax^2+bx+c
         System.out.println("r^2 = " + QR.getR2());  // Return the r^2 value
+
+        LogarithmicRegression LogR = new LogarithmicRegression(x, y);   // Pass the x and y values to QuadraticRegression class
+        System.out.println("y = " + LogR.getA() + "lnx + " + LogR.getB());   // Return the regression line y=ax^2+bx+c
+        System.out.println("r^2 = " + LogR.getR2());  // Return the r^2 value
     }
 }
